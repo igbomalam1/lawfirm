@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Firm</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+            <img src="images/lbrandlogo.jpg" alt="brand logo" class="navbar-logo">
+        </a>
+        <a class="navbar-brand" href="#">Sample Law Firm</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Welcome to Sample Law Firm</h1>
+            <p class="lead">Professional and Dedicated Legal Services</p>
+            <a href="contact.html" class="btn btn-secondary">Legal Enq</a>
+        </div>
+    </header>
+
+    <div id="welcomePopup" class="popup-container">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Welcome Dear!</h2>
+            <p>This is just a sample website and doesnt speak all for our work, let's talk about what you want and we will make it a reality</strong>. Feel free to go through our <a href="devigbomalam.com/portfolios.html">portfolio</a> and <a href="devigbomalam.com/pricing.html">Price list</a> to see some of our works.<br> <i>Disclaimer: all things used here are just for sample purposese and not real location, pictures or properties etc</i></p>
+        </div>
+    </div>    
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-4">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">We offer a wide range of legal services to meet your needs</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="service-box">
+                        <i class="fas fa-gavel fa-3x mb-3"></i>
+                        <h4 class="service-title">Corporate Law</h4>
+                        <p class="service-description">We provide comprehensive legal services for businesses, including formation, compliance, and litigation.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-box">
+                        <i class="fas fa-landmark fa-3x mb-3"></i>
+                        <h4 class="service-title">Real Estate Law</h4>
+                        <p class="service-description">Our firm offers expert legal advice and representation in real estate transactions and disputes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-box">
+                        <i class="fas fa-balance-scale fa-3x mb-3"></i>
+                        <h4 class="service-title">Family Law</h4>
+                        <p class="service-description">We handle cases related to divorce, child custody, and other family law matters with sensitivity and professionalism.</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="services.html" class="btn btn-secondary">View More Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-4">
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-subtitle">We value our clients' feedback and strive to provide the best service possible</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-box p-4 bg-white rounded shadow">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"The team at Sample Law Firm was incredibly professional and helped us navigate a complex corporate merger. Their expertise and attention to detail were invaluable."</p>
+                        </div>
+                        <div class="testimonial-author mt-4">
+                            <img src="images/ceolfp.jpg" alt="Client Image" class="testimonial-img rounded-circle">
+                            <h5 class="testimonial-name">John Doe</h5>
+                            <p class="testimonial-position">CEO, ABC Corp.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-box p-4 bg-white rounded shadow">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Sample Law Firm provided outstanding legal support during our real estate purchase. They made the process seamless and stress-free."</p>
+                        </div>
+                        <div class="testimonial-author mt-4">
+                            <img src="images/homwownerlfp.jpg" alt="Client Image" class="testimonial-img rounded-circle">
+                            <h5 class="testimonial-name">Jane Smith</h5>
+                            <p class="testimonial-position">Homeowner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-box p-4 bg-white rounded shadow">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Their dedication and knowledge in family law helped me through a very challenging time. I highly recommend Sample Law Firm."</p>
+                        </div>
+                        <div class="testimonial-author mt-4">
+                            <img src="images/familymanlfp.jpg" alt="Client Image" class="testimonial-img rounded-circle">
+                            <h5 class="testimonial-name">Emily Johnson</h5>
+                            <p class="testimonial-position">Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 text-center">
+                        <h2 class="section-title">About Sample Law Firm</h2>
+                        <p class="section-subtitle">Learn more about our history, mission, and team</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h4>Our History</h4>
+                        <p>Sample Law Firm was founded in [Year] with the mission of providing top-notch legal services to clients in a variety of industries. Over the years, we have grown into a trusted name in the legal field, known for our expertise and dedication.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h4>Our Mission</h4>
+                        <p>Our mission is to deliver exceptional legal services with integrity, professionalism, and respect for our clients. We strive to achieve the best possible outcomes for our clients through diligent and effective representation.</p>
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <h4>Our Team</h4>
+                        <p>Our team is composed of experienced attorneys and legal professionals who are dedicated to serving our clients. We bring a wealth of knowledge and expertise to every case, ensuring that our clients receive the best possible legal advice and representation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <hr>
+    
+        <!-- FAQs Section -->
+        <section id="faqs" class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 text-center">
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <p class="section-subtitle">Find answers to common questions about our services and processes</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="accordion" id="faqAccordion">
+                            <div class="card">
+                                <div class="card-header" id="faqHeading1">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                            What types of cases do you handle?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="faq1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                                    <div class="card-body">
+                                        We handle a wide range of cases including corporate law, real estate law, family law, and more. Please visit our Services page for a comprehensive list of our legal services.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading2">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                            How do I schedule a consultation?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="faq2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                                    <div class="card-body">
+                                        You can schedule a consultation by contacting us through our Contact page, or by calling our office directly at (123) 456-7890.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading3">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                            What should I bring to my initial consultation?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="faq3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                                    <div class="card-body">
+                                        For your initial consultation, please bring any relevant documents and information related to your case. This may include contracts, correspondence, or any other documentation that will help us understand your legal issue.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading4">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                            How do you charge for your services?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="faq4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+                                    <div class="card-body">
+                                        Our fees vary depending on the nature and complexity of the case. We offer an initial consultation to discuss your legal needs and provide an estimate of our fees.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faqHeading5">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                            Do you offer pro bono services?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="faq5" class="collapse" aria-labelledby="faqHeading5" data-parent="#faqAccordion">
+                                    <div class="card-body">
+                                        We are committed to giving back to our community and do offer pro bono services in certain cases. Please contact us to find out more about our pro bono work and eligibility criteria.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Sample Law Firm. All Rights Reserved.</p>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="text-white">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Custom JS (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+            document.addEventListener("DOMContentLoaded", function() {
+        var popup = document.getElementById("welcomePopup");
+        popup.style.display = "block";
+    
+        // Close the popup when the close button is clicked
+        window.closePopup = function() {
+            popup.style.display = "none";
+        }
+         });
+    </script>
+</body>
+</html>
